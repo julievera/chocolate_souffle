@@ -1,0 +1,170 @@
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+	color:#fff;
+}
+.background {
+	height:100vh;
+}
+
+.row {
+	margin:0;
+	max-width:5000px;
+	height:100%;
+}
+
+.fi-burst-new {
+	font-size:40px;
+	margin-left:20px;
+}
+
+.button, .button:hover, .button:focus {
+	background-color:black;
+	border: 2px solid black;
+	margin:10px;
+	padding:10px;
+	width:30px;
+	height:30px;
+	border-radius:0px;
+}
+
+.dropdown-pane {
+	border:0px;
+	color: #fff;
+	background-color:red;
+	font-family:'Montserrat', sans-serif;
+	border-radius:0px;
+}
+
+li {
+	color:black;
+	list-style:none;
+}
+
+li a {
+	color:#fff;
+}
+
+li:hover {
+	background-color:#f96666;
+	color:#fff;
+}
+
+a:hover, a:focus {
+	color:white;
+}
+.is-accordion-submenu-parent > a::after {
+	border-color: white transparent transparent;
+}
+
+
+#header_message {
+	margin-top:20%;
+	margin-left:10%;
+	margin-right:10%;
+	max-height:600px;
+}
+
+h1, h2 {
+	text-align:center;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#header_message h1 {
+	text-transform:uppercase;
+	font-size:60px;
+	font-weight:600;
+}
+
+h2 {
+	font-family: 'Lora', serif;
+}
+
+h3, h4, h5 {
+	text-align:center;
+	font-family: 'Lora', serif;
+}
+
+#header_message h2 {
+	font-weight:400;
+	font-style:italic;
+	text-align:center;
+}
+
+#menu_button {
+	padding:5px;
+}
+
+#divider {
+	background-color:red;
+	height:10px;
+	width:30px;
+	margin-left:48%;
+	margin-right:50%;
+}
+
+#home-left {
+	background-image:;
+	background-color:#000;
+	height:100vh;
+}
+
+#home-right{
+	background-color:#fffff1;
+	height:100vh;
+	background: url('../img/chocolate.jpg') no-repeat center center;
+  	background-size: cover;
+  	background-attachment: local; 
+}
+
+.content_container {
+	height:100vh;
+	border: 1px dashed transparent;
+
+
+}
+
+#yes_make_it {
+	width:150px;
+	height:40px;
+	font-family:'Montserrat', sans-serif;
+	font-weight:600;
+	background-color:red;
+	border-color:red;
+	/* overflow-y:hidden; */
+	margin-top:80%;
+	margin-left:45%;
+	text-align:center;
+	padding-top:8px;
+}
+
+a {
+	color:#fff;
+}
+
+#ingredient_list li {
+	padding-top:50px;
+	list-style-type: square;
+	list-style-position: outside;
+	list-style-image: none;
+	color:white;
+	font-family:'Montserrat', sans-serif;
+	font-weight:400;
+	font-size: 18px;
+	margin:-15px;
+}
+
+#ingredient_list li:hover {
+	background-color:black;
+}
+
+#ingredient_list li a {
+	color:red;
+	font-weight:600;
+}
+
+
